@@ -79,6 +79,44 @@ const makeAlphabet = () => {
 };
 
 const makeBio = () => {
+  const bioEl = document.querySelector('#my-bio');
+  bioEl.innerHTML = `
+  <h2 id="bio-heading">About Me</h2>
+  <p>My name is Zo and I like learn cool new things</p>
+  <h3 id="hobby-heading">My Hobbies</h3>
+  <ul>
+    <li>Running</li>
+    <li>Reading</li>
+    <li>Writing</li>
+  </ul>`
+  // const h2 = document.createElement("h2");
+  // h2.setAttribute("id", "bio-heading")
+  // h2.innerHTML = "About Me"
+  // document.getElementById("my-bio").appendChild(h2)
+
+  // const p = document.createElement("p")
+  // p.innerHTML = "My name is Zo and I like learn cool new things"
+  // document.getElementById("my-bio").appendChild(p)
+
+  // const h3 = document.createElement("h3");
+  // h3.setAttribute("id", "hobby-heading")
+  // h3.innerHTML = "My Hobbies"
+  // document.getElementById("my-bio").appendChild(h3)
+
+  // const ul = document.createElement("ul")
+  // document.getElementById("my-bio").appendChild(ul)
+
+  // const li = document.createElement("li")
+  // li.innerHTML = "Running"
+  // ul.appendChild(li)
+
+  // const li2 = document.createElement("li")
+  // li2.innerHTML = "Reading"
+  // ul.appendChild(li2)
+
+  // const li3 = document.createElement("li")
+  // li3.innerHTML = "Writing"
+  // ul.appendChild(li3)
 };
 
 // "runner" function
