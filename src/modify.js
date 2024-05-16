@@ -1,3 +1,5 @@
+/** FEEDBACK: Great job getting all test cases to pass! Make it a habit of cleaning up your code by removing commented out code! */
+
 const getMainHeadingText = () => {
   let h1 = document.querySelector("#main-heading").textContent
   //console.log(text.textContent)
@@ -9,6 +11,7 @@ const getMainHeadingText = () => {
 const getAllMainText = () => {
   const empty = []
   const p = document.querySelectorAll(".main-text")
+  /** FEEDBACK: querySelectorAll will already put elements in an array like structure so you do not need to actually spread it!  */
   const toArr = [...p]
   for (const ele of toArr) {
     const text = ele.textContent
